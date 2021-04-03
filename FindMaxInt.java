@@ -18,8 +18,15 @@ public class FindMaxInt {
 		// 4. max = A[i]
 		// 5. i = i + 1
 		// 6. return max
-		int max = array[0];
+		int i = 0;
+		int max = array[i];
+		for (i = 1; i < array.length; i++) {
+			if (array[i] > max) {
+				max = array[i];
+			}
+		}
 		return max;
+
 	}
 
 }
