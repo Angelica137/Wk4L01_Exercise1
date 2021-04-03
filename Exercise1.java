@@ -7,5 +7,9 @@
 // 5. i = i + 1
 // 6. return max
 
-
-public int findMax(int[] array) {}
+public class Exercise1 {
+	public int findMax(int[] array) {
+		int max = 0;
+		return max;
+	}
+}
