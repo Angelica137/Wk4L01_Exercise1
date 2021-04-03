@@ -1,10 +1,9 @@
 import java.util.*;
 
-public class TestExercise1 {
+public class TestFindMaxInt {
 	public static void main(String[] args) {
-		CreateArray a = new CreateArray();
+		FindMaxInt a = new FindMaxInt();
 		System.out.println(Arrays.toString(a.createArr()));
-		// Exercise1 e = new Exercise1();
-		// e.findMax(a);
+		System.out.println(a.findMax(a.createArr()));
 	}
 }
