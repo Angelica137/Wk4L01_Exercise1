@@ -24,4 +24,5 @@ There are two parts to this exercise:
 |      5. return max       | c5        | 1         | 1          |
 
 Best case: T(n) = c1 +(n - 1)(c2 + c3) + c5
+
 Worst case: T(n) = c1 + (n - 1)(c2 + c3 + c4) + c5
